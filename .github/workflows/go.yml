@@ -36,3 +36,5 @@ jobs:
       run: |
         cd daemon 
         go build -v .
+    - name: Test
+      run: go test ./...
